@@ -112,7 +112,7 @@ function clicar() {
     }
   });
 
-  resultadoImagem.innerHTML = `<img src="${match.img}">`;
+  resultadoImagem.innerHTML = `<img src="/${match.img}">`;
   resultadoNome.innerHTML = `Seu signo é... <h3>${match.nome}</h3>`;
   resultadoCaracteristicas.innerHTML = `<p>${match.caracteristicas}</p>`;
   mostrar();
